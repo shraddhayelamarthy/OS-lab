@@ -1,0 +1,13 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_19.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/mod1_19.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/mod2_19.xsm
+load --int=9 $HOME/myexpos/spl/spl_progs/int9_19.xsm
+load --exec $HOME/myexpos/expl/samples/ll_19.xsm
+load --init $HOME/myexpos/expl/samples/ass17.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+load --exhandler $HOME/myexpos/spl/spl_progs/exhandler_19_2.xsm
+load --int=7 $HOME/myexpos/spl/spl_progs/int7_15.xsm
+load --int=6 $HOME/myexpos/spl/spl_progs/int6_16.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/schedular_14.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/int10.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_14.xsm

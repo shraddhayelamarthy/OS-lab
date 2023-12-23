@@ -1,0 +1,8 @@
+load --os $HOME/myexpos/spl/spl_progs/os_startup_26.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_26.xsm
+load --int=12 $HOME/myexpos/spl/spl_progs/int12_26.xsm
+load --int=15 $HOME/myexpos/spl/spl_progs/int15_26.xsm
+load --int=16 $HOME/myexpos/spl/spl_progs/int16_26.xsm
+load --int=17 $HOME/myexpos/spl/spl_progs/int17_26.xsm
+load --init $HOME/myexpos/expl/samples/login_26.xsm
+load --shell $HOME/myexpos/expl/samples/extshell_26.xsm

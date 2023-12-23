@@ -1,0 +1,19 @@
+int main(){
+	decl
+	  int temp,temp1, a, b, res;
+	enddecl
+	begin
+	breakpoint;
+	temp = exposcall("Read", -1, a);
+	temp = exposcall("Read", -1, b);
+	breakpoint;
+	while
+    if(a==0) then
+		temp = b;	
+	else
+		temp = gcd(b%a, a);
+	endif;
+	temp1 = exposcall("Write", -2, temp);
+	return 0;
+	end
+}

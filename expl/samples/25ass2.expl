@@ -1,0 +1,37 @@
+int main()
+{
+	decl
+		str name,data;
+		int temp1,temp2,fd,perm,num, temp;
+	enddecl
+
+	begin
+		temp1 = exposcall("Write", -2, "Filename");
+		temp1 = exposcall("Read", -1, name);
+		fd = exposcall("Open",name);
+		
+		temp2 = exposcall("Seek",fd,19);
+		num = 20;
+		while(num < 39) do
+			temp1 = exposcall("Write",fd,num);
+			if (temp1 == -3) then
+				temp = exposcall("Write", -2, "Permisiion Denied");
+				break;
+			endif;
+			num = num + 1;
+		endwhile;
+		if (temp1 != -3) then
+			temp2 = 0;
+		
+			temp2 = exposcall("Seek",fd,-1);
+			while(temp2 != -2) do
+				temp1 = exposcall("Read",fd,data);
+				temp1 = exposcall("Write",-2,data);
+				temp2 = exposcall("Seek",fd,-2);
+			endwhile;
+			temp1 = exposcall("Close",fd);
+		endif;
+		
+		return 0;
+	end
+}

@@ -1,0 +1,7 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_17.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/procmanager_17.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/memmanager_17.xsm
+load --int=6 $HOME/myexpos/spl/spl_progs/int6_16.xsm
+load --int=9 $HOME/myexpos/spl/spl_progs/int9_17.xsm
+load --init $HOME/myexpos/expl/samples/ass17.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm

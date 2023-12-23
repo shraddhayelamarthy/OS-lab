@@ -1,0 +1,10 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_24.xsm
+load --int=6 $HOME/myexpos/spl/spl_progs/int6_24.xsm
+load --int=5 $HOME/myexpos/spl/spl_progs/int5_24.xsm
+load --int=8 $HOME/myexpos/spl/spl_progs/int8_24.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/mod0_24.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/mod1_24.xsm
+load --module 3 $HOME/myexpos/spl/spl_progs/mod3_24.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/schedular_24.xsm
+load --exec $HOME/myexpos/expl/samples/24ass1.xsm
+load --exec $HOME/myexpos/expl/samples/24ass2.xsm

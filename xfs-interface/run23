@@ -1,0 +1,8 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader2_23.xsm
+load --int=15 $HOME/myexpos/spl/spl_progs/23_int15.xsm
+load --int=4 $HOME/myexpos/spl/spl_progs/23_int4.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/23_resman.xsm
+load --module 4 $HOME/myexpos/spl/spl_progs/23_devman.xsm
+load --exec $HOME/myexpos/expl/samples/ass1_23.xsm
+load --exec $HOME/myexpos/expl/samples/ass2_23.xsm
+load --exec $HOME/myexpos/expl/samples/ass22_23.xsm

@@ -1,0 +1,6 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_18.xsm
+load --int=9 $HOME/myexpos/spl/spl_progs/int9_18.xsm
+load --int=disk $HOME/myexpos/spl/spl_progs/diskint_18.xsm
+load --module 4 $HOME/myexpos/spl/spl_progs/devmanager_18.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/resmanager_18.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/mod2_19.xsm

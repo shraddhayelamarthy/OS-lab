@@ -1,0 +1,10 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_ass14.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/schedular_14.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/int10.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_14.xsm
+load --os $HOME/myexpos/spl/spl_progs/os_code_13.xsm
+load --init $HOME/myexpos/expl/samples/1to100.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+load --exec $HOME/myexpos/expl/samples/even_13.xsm
+load --exec $HOME/myexpos/expl/samples/primeno.xsm
+load --int=7 $HOME/myexpos/spl/spl_progs/int7.xsm

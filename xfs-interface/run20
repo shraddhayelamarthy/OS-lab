@@ -1,0 +1,9 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_20.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/int10_20.xsm
+load --int=8 $HOME/myexpos/spl/spl_progs/int8_20.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/procmanager_20.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/scheduler_20.xsm
+load --init $HOME/myexpos/expl/samples/parent_20.xsm
+load --idle $HOME/myexpos/expl/samples/idle.xsm
+
+

@@ -1,0 +1,16 @@
+load --os $HOME/myexpos/spl/spl_progs/os_startup_27.xsm
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_27.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/mod2_27.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/mod5_27.xsm
+load --module 6 $HOME/myexpos/spl/spl_progs/mod6_27.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_27.xsm
+load --exec $HOME/myexpos/expl/samples/3f_21.xsm
+load --exec $HOME/myexpos/expl/samples/27ass2.xsm
+load --exec $HOME/myexpos/expl/samples/27ass3.xsm
+load --exec $HOME/myexpos/expl/samples/27ass4.xsm
+load --exec $HOME/myexpos/expl/samples/pgm1.xsm
+load --exec $HOME/myexpos/expl/samples/pgm2.xsm
+load --exec $HOME/myexpos/expl/samples/merge.xsm
+load --exec $HOME/myexpos/expl/samples/m_merge.xsm
+load --exec $HOME/myexpos/expl/samples/m_sort.xsm
+load --exec $HOME/myexpos/expl/samples/m_store.xsm

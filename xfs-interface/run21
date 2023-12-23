@@ -1,0 +1,7 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_21.xsm
+load --int=11 $HOME/myexpos/spl/spl_progs/int11_21.xsm
+load --int=15 $HOME/myexpos/spl/spl_progs/int15_21.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/procmanager_21.xsm
+load --init $HOME/myexpos/expl/samples/shell_21.xsm
+load --exec $HOME/myexpos/expl/samples/pid_21.xsm
+load --exec $HOME/myexpos/expl/samples/3fork_21.xsm

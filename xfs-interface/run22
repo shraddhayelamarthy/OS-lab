@@ -1,0 +1,16 @@
+load --module 7 $HOME/myexpos/spl/spl_progs/bootloader_22.xsm
+load --int=11 $HOME/myexpos/spl/spl_progs/int11_22.xsm
+load --int=13 $HOME/myexpos/spl/spl_progs/int13_22.xsm
+load --int=8 $HOME/myexpos/spl/spl_progs/int8_22.xsm
+load --int=14 $HOME/myexpos/spl/spl_progs/int14_22.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/mod1_22.xsm
+load --module 0 $HOME/myexpos/spl/spl_progs/mod0_22.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/mod2_22.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/schedulaer_22.xsm
+load --exec $HOME/myexpos/expl/samples/ass1_22.xsm
+load --init $HOME/myexpos/expl/samples/shell_21.xsm
+load --exec $HOME/myexpos/expl/samples/child.xsm
+load --exec $HOME/myexpos/expl/samples/s_ms22.xsm
+load --exec $HOME/myexpos/expl/samples/c_ms22.xsm
+load --exec $HOME/myexpos/expl/samples/p_22.xsm
+

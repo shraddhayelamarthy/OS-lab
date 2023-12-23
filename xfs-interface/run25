@@ -1,0 +1,26 @@
+load --int=15 $HOME/myexpos/spl/spl_progs/int15_25.xsm
+load --int=5 $HOME/myexpos/spl/spl_progs/int5_25.xsm
+load --int=7 $HOME/myexpos/spl/spl_progs/int7_25.xsm
+load --module 2 $HOME/myexpos/spl/spl_progs/mod2_25.xsm
+load --module 1 $HOME/myexpos/spl/spl_progs/mod1_25.xsm
+load --module 3 $HOME/myexpos/spl/spl_progs/mod3_25.xsm
+load --exec $HOME/myexpos/expl/samples/25ass1.xsm
+load --exec $HOME/myexpos/expl/samples/25ass2.xsm
+load --exec $HOME/myexpos/expl/samples/25ass3.xsm
+load --exec $HOME/myexpos/expl/samples/25ass4.xsm
+load --module 5 $HOME/myexpos/spl/spl_progs/scheduler_20.xsm
+load --int=9 $HOME/myexpos/spl/spl_progs/int9_19.xsm
+load --int=10 $HOME/myexpos/spl/spl_progs/int10_20.xsm
+load --int=11 $HOME/myexpos/spl/spl_progs/int11_21.xsm
+load --int=13 $HOME/myexpos/spl/spl_progs/int13_22.xsm
+load --int=14 $HOME/myexpos/spl/spl_progs/int14_22.xsm
+load --int=console $HOME/myexpos/spl/spl_progs/consolein_16.xsm
+load --int=timer $HOME/myexpos/spl/spl_progs/timer_14.xsm
+load --int=disk $HOME/myexpos/spl/spl_progs/diskint_18.xsm
+load --exhandler $HOME/myexpos/spl/spl_progs/exhandle_19.xsm
+load --exec $HOME/myexpos/expl/samples/cat.xsm
+load --exec $HOME/myexpos/expl/samples/cp.xsm
+load --exec $HOME/myexpos/expl/samples/ls.xsm
+load --exec $HOME/myexpos/expl/samples/lu.xsm
+load --exec $HOME/myexpos/expl/samples/rm.xsm
+load --exec $HOME/myexpos/expl/samples/ru.xsm
